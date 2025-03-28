@@ -67,38 +67,70 @@ public class seventh {
 
         // Reverse Array
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter Array Elements : " );
+        // System.out.println("Enter Array Elements : " );
 
-        int a[] = new int[5];
+        // int a[] = new int[5];
 
         // Input Loop
 
-        for(int r=0; r<a.length; r++){
-            a[r] = sc.nextInt();  // 12  13   14   15   16
-        }
+        // for(int r=0; r<a.length; r++){
+        //     a[r] = sc.nextInt();  // 12  13   14   15   16
+        // }
 
 
-        // Output Loop
+        // // Output Loop
 
-        System.out.println("Reverse Array Elements : ");
-        for(int r=a.length-1; r>=0; r--){
-            System.out.print(a[r]+" ");
-        }
-
-
-        
+        // System.out.println("Reverse Array Elements : ");
+        // for(int r=a.length-1; r>=0; r--){
+        //     System.out.print(a[r]+" ");
+        // }
 
 
 
 
+        // 2). Multi Dimensional Array:
+
+
+        // Scanner sc = new Scanner(System.in);
+
+        // System.out.println("Enter Array Elements : " );
+
+        // int a[][] = new int[10][10];
+
+
+        // // Input Loop
+
+        // for(int i=0; i<a.length; i++){  // row
+
+        //     for(int j=0; j<a.length; j++){   // column
+
+
+        //         a[i][j] = sc.nextInt();
+            
+        //     }
+
+
+        // }
+
+
+        // // Output Loop
+
+
+        // System.out.println("Matrix : ");
+        // for(int i=0; i<a.length; i++){     // row
+
+        //     for(int j=0; j<a.length; j++){    // column
+
+        //         System.out.print(a[i][j]+" ");
+        //     }
+        //     System.out.println();
+        // }
 
 
 
-
-        
-        
+      
 
     }
     
